@@ -1,0 +1,358 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container-center h1{
+    font-size: 100px;
+
+
+}
+
+.navbar{
+    background: #06b49d;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0, 0.05);
+    height: 100px;
+}
+
+.nav-link{
+   color: #fdfdfd;
+   font-size: 18px;
+}
+
+.nav-link:hover{
+    color: rgb(0, 0, 0);
+}
+
+.logo{
+    width: 160px;
+    height: 85px;
+
+}
+.navbar-toggler{
+    font-size: 40px;
+
+
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+
+/* ________________________________HEADER_________________________________________ */
+
+
+
+#hero{
+    background-image: url(./img/baner.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px ;
+    color: #050505;
+
+}
+
+#hero p{
+    color: #020202;
+    font-size: 50px;
+}
+
+.container-center{
+    max-width: 800px;
+    margin: 120px auto 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.boton{
+    font-size: 15px;
+    padding: 15px 26px;
+    min-width: 200px;
+    border-radius: 2px;
+    display: inline-block;
+    background: #06b49d;
+    color: white;
+    border-radius: 50px;
+}
+
+.boton:hover{
+    text-decoration: none;
+    color:black;
+
+}
+
+/* _______________________________PORTAFOLIO______________________________________ */
+
+.portafolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.portafolio-delails{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+
+}
+
+.portafolio-delails a:hover{
+    text-decoration: none;
+
+}
+
+.portafolio-delails a h2,
+.portafolio-delails a p{
+    color: white;   
+}
+
+.portafolio-delails h2{
+    margin-bottom: 0px;
+}
+
+
+.portafolio-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    width: 645px;
+    height: 340px;
+
+}
+
+.portafolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* _________________________________SECTION2________________________________________________ */
+
+
+
+.bg-light-grey{
+    background: #f5f5f5;
+}
+
+.member-container{
+    position: relative;
+    margin: 10px 0px;
+}
+
+.member-container img{
+    width: 100%;
+
+}
+
+
+.redes{
+    background: rgba(0, 0, 0, 0.418);
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 0px;
+    left: 20px;
+    margin-left: -20px;
+
+}
+
+.redes h5,
+.redes samp{
+    margin-bottom: 0;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.list-inline-item a > ion-icon{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    padding-left: 20px;
+  
+}
+
+/* _________________________________________________TESTIGOS____________________________________________________ */
+
+.carousel{
+    min-height: 240px;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.carousel p{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.estrellas i{
+    color: #ffb944;
+    font-size: 26px;
+   
+}
+
+.carousel-indicators li{
+    background: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin: 0 8px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    color: rgb(255, 0, 0);
+    opacity: 1;
+    width: 5px;
+}
+.control-button{
+    background: black;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-container{
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.testimonio-user{
+    max-width: 240px;
+    margin:  0 auto;
+    text-align: left;
+}
+.testimonio-user p{
+    margin-bottom: 0;
+    font-size: 20px;
+
+    
+}
+.testimonio-user img{
+    border-radius: 50%;
+    max-width: 60px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+/* ___________________________FORMULARIO_____________________________________________________ */
+
+.from-control{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.52);
+
+
+}
+.from-control:focus{
+    outline: none;
+    border: 2px solid #06b49d ;
+
+
+}
+
+
+.formulario input,.formulario a {
+    width: 100%;
+    margin-top: 10px;
+
+
+}
+
+/* ___________________________FOOTER__________________________________________________ */
+
+#footer{
+    margin-top: 120px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    background: rgba(0, 0, 0, 0.739);    
+}
+
+.list-inline-items{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.list-inline-items a{
+    color: rgb(255, 255, 255);
+}
+
+.list-inline-items a i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.list-inline-items a:hover{
+    color: black;
+}
+
+/* ______________________________________@medias_______________________________________________________ */
+
+@media (max-width: 575.98px) {
+    .container-center h1{
+        font-size: 50px;
+        line-height: normal;
+    }
+
+    #hero p{
+        color: #020202;
+        font-size: 30px;
+    }
+
+    .navbar-toggler{
+        font-size: 700px;
+    
+    
+    }
+    .logo{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    
+    }
+    #hero{
+       min-height: 500px ;
+    }
+
+    .footer-menu{
+        display: block !important;
+        padding: 20px 0 !important;
+        font-size: 20px;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    .member-container img{
+        height: 200px;
+    
+    }
+    .redes{
+        display: none;
+    }
+}
+ 
+
+
+    
+
+   
